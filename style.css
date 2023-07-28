@@ -1,0 +1,237 @@
+/*Conteúdo CSS*/
+
+/*TAGs*/
+
+body{
+    background-color: #050815;
+}
+
+ *{
+     margin: 20;
+     padding: 0;
+ }
+
+header{
+     position: fixed;
+     min-height: 5px;
+     min-width:  1350px;
+     padding: 20px 0 0px 50px;
+ }
+     
+h1{
+    color: #F9F9F9;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/*LOGO PEQUENA*/
+
+img {
+    padding: 0px ;
+    max-width: 100%;
+    max-height: 100%;
+}
+   .cat-1 {
+    height: 85px;
+    width: 85px;
+   }
+
+   #logo{
+    float: left;
+}
+/*botões*/
+ #botão-1{
+     margin-top: 10px;
+     float: left;
+     padding: 0 0 0 900px ;
+     
+ }
+
+ #botão-1 a{
+     text-decoration: none;
+     padding: 20px 20px;    
+     color: #f9f9f9;
+     background-color: #0063e5;
+     border-radius: 5px;
+ }
+
+ #botão-2{
+     padding: 0 100px 0 0;
+     margin-top: 10px;
+     float: right;
+}
+
+.borda{
+    padding: 10px;
+    border-top-color: silver;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: silver;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: silver;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: silver;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-radius: 5px;
+}
+
+#botão-2 a{
+     text-decoration: none;
+     padding: 20px 20px;    
+     color: #f9f9f9;
+}
+
+#botão-2 a:hover{
+  color: #040714;
+  background-color: #f9f9f9;
+}
+ 
+ /*PARTE 1*/
+ #parte-1{
+    background-image: url(images/intro-disney.jpg);
+    background-size: 100%;
+    min-height: 375px;
+    padding: 375px 0 0 0;
+    clear: both;
+}
+
+.texto{
+    padding:275px 50px 0 0;
+    color: silver;
+}
+
+ /*PARTE 2*/
+ #parte-2{
+     background-size: 50%; 
+     min-height: 0px;
+     clear: both;
+     float: right;
+     font-size: 20px;
+     font-family: sans-serif;
+     color: #f9f9f9;
+ }
+
+ .titulo-1{
+    padding: 125px 270px 0 0;
+ }
+
+.descrição-1{
+    padding: 25px 0px 0 0px ;
+    line-height: 30px;
+    color: silver;
+}
+.img-manda {
+    padding: 0 0 0 75px;
+    max-width: 100%;
+    max-height: 100%;
+   }
+   .cat-2 {
+    height: 600px;
+    width: 600px;
+   }
+
+   #mandalorian{
+    float: left;
+}
+
+/*PARTE 3*/
+#parte-3{
+    background-color: #050815;
+    background-size: 50%; 
+    min-height: 0px;
+    clear: both;
+    float: right;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #f9f9f9;
+    padding: 0px 0 0 0 ;
+}
+
+.descrição-2{
+   height: 0px;
+   margin-top: 10px;
+   padding: 0px 750px 0 0px ;
+   line-height: 30px;
+   color: silver;
+   text-align: left;
+}
+
+#luca{
+    float: right;
+}
+
+.img-luca {
+   max-width: 100%;
+   max-height: 100%;
+  }
+.cat-3 {
+   height: 600px;
+   width: 600px;
+   padding: 10px 100px 0px 0px ;
+   float: right;
+  }
+
+/*PARTE 4*/
+#parte-4{
+    background-color: #050815;
+    background-image: url(images/rei-leao.png);
+    background-size: 100%;
+    min-height: 350px;
+    padding: 350px 0 0 0;
+    clear: both;
+}
+
+.titulo-2{
+   padding: 0px 0px 0 500px;
+}
+
+.descrição-3{
+    font-family: sans-serif;
+    font-size: 17px;
+   padding: 0px 0px 0 765px ;
+   line-height: 30px;
+   color: silver;
+}
+
+/*RODAPÉ*/
+
+footer{
+    clear: both;
+    background-color: #101521;
+    color: white;
+    font-family: arial;
+    height: 90px;
+    text-align: center;
+    padding: 250px;
+    font-size: 36px;
+}
+
+.img-tv {
+    max-width: 100%;
+    max-height: 100%;
+   }
+
+   .img-computador {
+    min-width: 100%;
+    min-height: 100%;
+   }
+
+   .img-ps4 {
+    max-width: 100%;
+    max-height: 100%;
+   }
+ 
+
+   .img-cell {
+    max-width: 100%;
+    max-height: 100%;
+   }
+   
+   .box {
+    height: 140px;
+    width: 280px;
+    display: inline-block;
+   }
