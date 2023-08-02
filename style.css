@@ -8,7 +8,7 @@ body{
 
  *{
      margin: 0;
-     padding: 24;
+     padding: 0;
  }
 
 header{
@@ -91,16 +91,9 @@ img {
  
  /*PARTE 1*/
  #parte-1{
-    background-image: url(images/intro-disney.jpg);
+    background-image: url(images/Captura\ de\ Tela\ \(51\).png);
     background-size: 100%;
-    min-height: 375px;
-    padding: 375px 0 0 0;
-    clear: both;
-}
-
-.texto{
-    padding:275px 50px 0 0;
-    color: silver;
+    padding: 500px 0px 0 0;
 }
 
  /*PARTE 2*/
@@ -138,41 +131,7 @@ img {
 }
 
 /*PARTE 3*/
-#parte-3{
-    background-color: #050815;
-    background-size: 50%; 
-    min-height: 0px;
-    clear: both;
-    float: right;
-    font-size: 20px;
-    font-family: sans-serif;
-    color: #f9f9f9;
-    padding: 0px 0 0 0 ;
-}
 
-.descrição-2{
-   height: 0px;
-   margin-top: 10px;
-   padding: 0px 750px 0 0px ;
-   line-height: 30px;
-   color: silver;
-   text-align: left;
-}
-
-#luca{
-    float: right;
-}
-
-.img-luca {
-   max-width: 100%;
-   max-height: 100%;
-  }
-.cat-3 {
-   height: 600px;
-   width: 600px;
-   padding: 10px 100px 0px 0px ;
-   float: right;
-  }
 
 /*PARTE 4*/
 #parte-4{
