@@ -36,29 +36,33 @@ img {
     width: 85px;
    }
 
-   #logo{
+   .logo{
     float: left;
 }
 /*botões*/
- #botão-1{
+
+.buttons{
+    display: flex;
+    gap: 3rem;
+    padding: 10px 0 0 500px
+}
+ .botão-1{
      margin-top: 10px;
      float: left;
-     padding: 0 0 0 900px ;
+
      
  }
 
- #botão-1 a{
+ .botão-1 a{
      text-decoration: none;
-     padding: 20px 20px;    
+     padding: 20px 20px; 
      color: #f9f9f9;
      background-color: #0063e5;
      border-radius: 5px;
  }
 
  #botão-2{
-     padding: 0 100px 0 0;
-     margin-top: 10px;
-     float: right;
+ 
 }
 
 .borda{
@@ -78,26 +82,26 @@ img {
     border-radius: 5px;
 }
 
-#botão-2 a{
+.botão-2 a{
      text-decoration: none;
-     padding: 20px 20px;    
+     padding: 20px 20px; 
      color: #f9f9f9;
 }
 
-#botão-2 a:hover{
+.botão-2 a:hover{
   color: #040714;
   background-color: #f9f9f9;
 }
  
  /*PARTE 1*/
- #parte-1{
+ .parte-1{
     background-image: url(images/Captura\ de\ Tela\ \(51\).png);
     background-size: 100%;
     padding: 500px 0px 0 0;
 }
 
  /*PARTE 2*/
- #parte-2{
+ .parte-2{
      background-size: 50%; 
      min-height: 0px;
      clear: both;
@@ -126,7 +130,7 @@ img {
     width: 600px;
    }
 
-   #mandalorian{
+.mandalorian{
     float: left;
 }
 
@@ -134,7 +138,7 @@ img {
 
 
 /*PARTE 4*/
-#parte-4{
+.parte-4{
     background-color: #050815;
     background-image: url(images/rei-leao.png);
     background-size: 100%;
