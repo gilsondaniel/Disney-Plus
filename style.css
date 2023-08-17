@@ -6,11 +6,6 @@ body{
     background-color: #050815;
 }
 
- *{
-     margin: 0;
-     padding: 0;
- }
-
 header{
      position: fixed;
      min-height: 5px;
@@ -31,7 +26,7 @@ img {
     max-width: 100%;
     max-height: 100%;
 }
-   .cat-1 {
+   .image-1 {
     height: 85px;
     width: 85px;
    }
@@ -44,13 +39,12 @@ img {
 .buttons{
     display: flex;
     gap: 3rem;
+    text-align: center;
     padding: 10px 0 0 500px
 }
  .botão-1{
      margin-top: 10px;
      float: left;
-
-     
  }
 
  .botão-1 a{
@@ -98,6 +92,7 @@ img {
 
  /*PARTE 2*/
  .parte-2{
+    display: flex;
      background-size: 50%; 
      min-height: 0px;
      clear: both;
@@ -107,57 +102,52 @@ img {
      color: #f9f9f9;
  }
 
- .titulo-1{
-    padding: 125px 270px 0 0;
+ .titulo-2{
  }
 
-.descrição-1{
+ .descrição-2{
     padding: 25px 0px 0 0px ;
     line-height: 30px;
     color: silver;
 }
-.img-manda {
-    padding: 0 0 0 75px;
-    max-width: 100%;
-    max-height: 100%;
-   }
-   .cat-2 {
-    height: 600px;
-    width: 600px;
-   }
 
 .mandalorian{
     float: left;
 }
 
+.image-2 {
+    height: 600px;
+    width: 600px;
+   }
+
+.img-manda {
+    max-width: 100%;
+    max-height: 100%;
+   }
+
 /*PARTE 3*/
-
-
-/*PARTE 4*/
-.parte-4{
+.parte-3{
+    display: flex;
     background-color: #050815;
     background-image: url(images/rei-leao.png);
     background-size: 100%;
     min-height: 350px;
-    padding: 350px 0 0 0;
     clear: both;
 }
 
-.titulo-2{
-   padding: 0px 0px 0 500px;
+.titulo-3{
 }
 
 .descrição-3{
     font-family: sans-serif;
     font-size: 17px;
-   padding: 0px 0px 0 765px ;
-   line-height: 30px;
    color: silver;
 }
 
 /*RODAPÉ*/
 
 footer{
+    display: flex;
     clear: both;
     background-color: #101521;
     color: white;
@@ -189,7 +179,7 @@ footer{
     max-height: 100%;
    }
    
-   .box {
+   .icon {
     height: 140px;
     width: 280px;
     display: inline-block;
