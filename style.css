@@ -39,12 +39,10 @@ img {
 .buttons{
     display: flex;
     gap: 3rem;
-    text-align: center;
-    padding: 10px 0 0 500px
+    align-items: end;
 }
  .botão-1{
-     margin-top: 10px;
-     float: left;
+    margin-top: 10px;
  }
 
  .botão-1 a{
@@ -85,102 +83,80 @@ img {
  
  /*PARTE 1*/
  .parte-1{
-    background-image: url(images/Captura\ de\ Tela\ \(51\).png);
+    background-image: url(images/Captura\ de\ Tela\ \(57\).png) ;
     background-size: 100%;
-    padding: 500px 0px 0 0;
+    padding: 400px 0px 10px 0px;
 }
 
  /*PARTE 2*/
  .parte-2{
-    display: flex;
-     background-size: 50%; 
-     min-height: 0px;
-     clear: both;
-     float: right;
      font-size: 20px;
      font-family: sans-serif;
      color: #f9f9f9;
  }
 
- .titulo-2{
- }
+.text-2{
+    float: right;
+}
 
  .descrição-2{
-    padding: 25px 0px 0 0px ;
     line-height: 30px;
     color: silver;
 }
 
-.mandalorian{
-    float: left;
-}
-
-.image-2 {
-    height: 600px;
-    width: 600px;
-   }
-
-.img-manda {
-    max-width: 100%;
-    max-height: 100%;
+.mandalorian {
+    height: 400px;
+    width: 400px;
    }
 
 /*PARTE 3*/
 .parte-3{
+    padding: 350px 0 0 0;
     display: flex;
     background-color: #050815;
     background-image: url(images/rei-leao.png);
     background-size: 100%;
-    min-height: 350px;
+    min-height: 170px;
     clear: both;
 }
 
-.titulo-3{
+.text-3{
 }
 
 .descrição-3{
     font-family: sans-serif;
     font-size: 17px;
-   color: silver;
+    color: silver;
 }
 
 /*RODAPÉ*/
 
 footer{
-    display: flex;
-    clear: both;
+    display: block;
     background-color: #101521;
-    color: white;
     font-family: arial;
-    height: 90px;
-    text-align: center;
     padding: 250px;
-    font-size: 36px;
 }
 
-.img-tv {
-    max-width: 100%;
-    max-height: 100%;
-   }
-
-   .img-computador {
-    min-width: 100%;
-    min-height: 100%;
-   }
-
-   .img-ps4 {
-    max-width: 100%;
-    max-height: 100%;
-   }
- 
-
-   .img-cell {
-    max-width: 100%;
-    max-height: 100%;
-   }
-   
-   .icon {
-    height: 140px;
-    width: 280px;
+b{
+    text-align: center;
     display: inline-block;
-   }
+    font-size: 36px;
+    color: white;
+}
+
+p{
+    color: silver;
+}
+
+.icon{
+    height: 115px;
+    width: 115px;
+
+	display: inline-block;
+}
+
+.text-icon{
+    font-size: 15px;
+}
+
