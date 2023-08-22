@@ -90,6 +90,7 @@ img {
 
  /*PARTE 2*/
  .parte-2{
+    text-align: left;
      font-size: 20px;
      font-family: sans-serif;
      color: #f9f9f9;
@@ -120,9 +121,6 @@ img {
     clear: both;
 }
 
-.text-3{
-}
-
 .descrição-3{
     font-family: sans-serif;
     font-size: 17px;
@@ -135,7 +133,7 @@ footer{
     display: block;
     background-color: #101521;
     font-family: arial;
-    padding: 250px;
+    padding: 350px;
 }
 
 b{
@@ -147,12 +145,12 @@ b{
 
 p{
     color: silver;
+    text-align: center;
 }
 
 .icon{
     height: 115px;
     width: 115px;
-
 	display: inline-block;
 }
 
