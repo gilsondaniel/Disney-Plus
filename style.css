@@ -81,37 +81,37 @@ img {
   background-color: #f9f9f9;
 }
  
- /*PARTE 1*/
- .parte-1{
+ /*BANNER*/
+ .banner{
     background-image: url(images/Captura\ de\ Tela\ \(57\).png) ;
     background-size: 100%;
     padding: 400px 0px 10px 0px;
 }
 
- /*PARTE 2*/
- .parte-2{
+ /*MANDALORIAN*/
+ .mandalorian{
     text-align: left;
      font-size: 20px;
      font-family: sans-serif;
      color: #f9f9f9;
  }
 
-.text-2{
+.text-m{
     float: right;
 }
 
- .descrição-2{
+ .descrição-m{
     line-height: 30px;
     color: silver;
 }
 
-.mandalorian {
+.img-mandalorian {
     height: 400px;
     width: 400px;
    }
 
-/*PARTE 3*/
-.parte-3{
+/*KING LION*/
+.king-lion{
     padding: 350px 0 0 0;
     display: flex;
     background-color: #050815;
@@ -121,7 +121,7 @@ img {
     clear: both;
 }
 
-.descrição-3{
+.descrição-k-l{
     font-family: sans-serif;
     font-size: 17px;
     color: silver;
