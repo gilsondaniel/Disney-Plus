@@ -110,6 +110,22 @@ img {
     width: 400px;
    }
 
+/*GROUPING*/
+
+.grouping{
+    background-color: rgb(55, 85, 119);
+    height:651px ;
+}
+
+.img-grouping{
+    border-radius:60px;
+
+    display: flex;
+    gap: 121px;
+    height: 150px;
+    width: 250px;
+}
+
 /*KING LION*/
 .king-lion{
     padding: 350px 0 0 0;
