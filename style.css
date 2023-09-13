@@ -97,10 +97,10 @@ img {
  }
 
 .text-m{
-    float: right;
+    float: right
 }
-
- .descrição-m{
+    
+.descrição-m{
     line-height: 30px;
     color: silver;
 }
@@ -118,10 +118,9 @@ img {
 }
 
 .img-grouping{
-    border-radius:60px;
-
     display: flex;
     gap: 121px;
+    align-items: end;
     height: 150px;
     width: 250px;
 }
