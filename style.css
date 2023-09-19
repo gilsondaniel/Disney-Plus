@@ -114,13 +114,15 @@ img {
 
 .grouping{
     background-color: rgb(55, 85, 119);
-    height:651px ;
+    height: 651px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.img-grouping{
-    display: flex;
-    gap: 121px;
-    align-items: end;
+.img-grouping-lineone{
     height: 150px;
     width: 250px;
 }
@@ -172,4 +174,3 @@ p{
 .text-icon{
     font-size: 15px;
 }
-
