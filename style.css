@@ -3,49 +3,46 @@
 /*TAGs*/
 
 body{
+    padding: 0px;
     background-color: #050815;
+} 
+
+img{
+        max-width: 100%;
+        max-height: 100%;
 }
 
 header{
-     position: fixed;
-     min-height: 5px;
-     min-width:  1350px;
-     padding: 20px 0 0px 50px;
+    background-color: #899bb3;
  }
      
 h1{
-    color: #F9F9F9;
-    text-align: center;
+    color: #f9f9f9;
     font-family: sans-serif;
 }
 
 /*LOGO PEQUENA*/
 
-img {
-    padding: 0px ;
-    max-width: 100%;
-    max-height: 100%;
-}
-   .image-1 {
+   .logo {
+    display: flex;
+    align-items: center;
     height: 85px;
     width: 85px;
    }
 
-   .logo{
-    float: left;
-}
 /*botões*/
 
-.buttons{
+.buttoms{
     display: flex;
-    gap: 3rem;
-    align-items: end;
+    justify-content: end;
+
 }
- .botão-1{
-    margin-top: 10px;
+
+ .assineagora{
+
  }
 
- .botão-1 a{
+ .assineagora a{
      text-decoration: none;
      padding: 20px 20px; 
      color: #f9f9f9;
@@ -53,30 +50,17 @@ img {
      border-radius: 5px;
  }
 
-.borda{
-    padding: 10px;
-    border-top-color: silver;
-    border-top-style: solid;
-    border-top-width: 1px;
-    border-right-color: silver;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-bottom-color: silver;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-left-color: silver;
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-radius: 5px;
-}
+ .entrar{
 
-.botão-2 a{
+ }
+
+.entrar a{
      text-decoration: none;
      padding: 20px 20px; 
      color: #f9f9f9;
 }
 
-.botão-2 a:hover{
+.entrar a:hover{
   color: #040714;
   background-color: #f9f9f9;
 }
