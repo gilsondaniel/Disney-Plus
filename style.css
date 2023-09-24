@@ -3,6 +3,7 @@
 /*TAGs*/
 
 body{
+    margin: 0;
     padding: 0px;
     background-color: #050815;
 } 
@@ -13,34 +14,38 @@ img{
         border-radius: 3%;
 }
 
-header{
-    background-color: #899bb3;
- }
+
      
 h1{
+    font-size: 28px;
     color: #f9f9f9;
     font-family: sans-serif;
 }
 
 p{
+    font-size: 18px;
     color: silver;
+    font-family: sans-serif;
+    line-height: 28px;
 }
 
 /*LOGO PEQUENA*/
 
-   .logo {
-    display: flex;
-    align-items: center;
+
+
+/*header*/
+
+.header{
+ }
+
+.img-logo {
     height: 85px;
     width: 85px;
    }
 
-/*botões*/
-
 .buttoms{
-    display: flex;
-    justify-content: end;
 
+    
 }
 
  .assineagora{
@@ -74,35 +79,26 @@ p{
  .banner{
     background-image: url(images/Captura\ de\ Tela\ \(57\).png);
     background-size: 100%;
-    padding: 400px 0px 10px 0px;
+    height: 440px;
 }
 
  /*MANDALORIAN*/
  .mandalorian{
-    text-align: left;
-     font-size: 20px;
-     font-family: sans-serif;
-     color: #f9f9f9;
- }
-
-.text-m{
-    float: right
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 200px 0 150px 0;
 }
-    
-.descrição-m{
-    line-height: 30px;
-    color: silver;
-}
+ 
 
 .img-mandalorian {
-    height: 400px;
-    width: 400px;
+    height: 361px;
+    width: 452px;
    }
 
 /*GROUPING*/
 
 .grouping{
-    background-color: #050815;
     
 }
 
@@ -128,43 +124,41 @@ p{
 
 /*KING LION*/
 .king-lion{
-    padding: 350px 0 0 0;
     display: flex;
+    height: 520px;
+    align-items: center;
+    justify-content: end;
     background-color: #050815;
     background-image: url(images/rei-leao.png);
-    background-size: 100%;
-    min-height: 170px;
-    clear: both;
+    background-size:100% ;
+
 }
 
-.descrição-k-l{
-    font-family: sans-serif;
-    font-size: 17px;
-    color: silver;
+.text-k-l{
+    padding: 0 50px 0 0 ;
 }
 
 /*RODAPÉ*/
 
-footer{
-    display: block;
+.footer{
+    height: 700px;
     background-color: #101521;
-    font-family: arial;
-    padding: 350px;
 }
 
-b{
+.favorites{
+    display: block;
     text-align: center;
-    display: inline-block;
-    font-size: 36px;
-    color: white;
+    padding: 200px 0 0 0 ;
+}
+
+.elements{
+    display: flex;
+    justify-content: space-around;
 }
 
 .icon{
-    height: 115px;
-    width: 115px;
-	display: inline-block;
-}
+    text-align: center;
+    height: 104px;
+    width: 208px;
 
-.text-icon{
-    font-size: 15px;
 }
