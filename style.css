@@ -3,8 +3,8 @@
 /*TAGs*/
 
 body{
-    margin: 0;
     padding: 0px;
+    margin: 0;
     background-color: #050815;
 } 
 
@@ -14,8 +14,6 @@ img{
         border-radius: 3%;
 }
 
-
-     
 h1{
     font-size: 28px;
     color: #f9f9f9;
@@ -29,57 +27,99 @@ p{
     line-height: 28px;
 }
 
-/*LOGO PEQUENA*/
-
-
-
 /*header*/
 
-.header{
- }
+.menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #050815;
+    position: fixed;
+}
 
-.img-logo {
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1440px;
+
+}
+
+nav{
+    display: flex;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 5px;
+}
+
+nav ul li a{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.subscription{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0063e5;
+    color: #f9F9F9;
+    width: 171px;
+    height: 50px;
+    border-radius: 4px;
+}
+
+.sign-in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f9F9F9;
+    width: 108px;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid #f9f9f9;
+}
+
+
+.sign-in:hover{
+    color: #050815;
+    background-color: #f9f9f9;
+    transition: 1s;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
     height: 85px;
     width: 85px;
-   }
-
-.buttoms{
-
-    
 }
 
- .assineagora{
-
- }
-
- .assineagora a{
-     text-decoration: none;
-     padding: 20px 20px; 
-     color: #f9f9f9;
-     background-color: #0063e5;
-     border-radius: 5px;
- }
-
- .entrar{
-
- }
-
-.entrar a{
-     text-decoration: none;
-     padding: 20px 20px; 
-     color: #f9f9f9;
-}
-
-.entrar a:hover{
-  color: #040714;
-  background-color: #f9f9f9;
-}
- 
  /*BANNER*/
+
  .banner{
+    padding: 70px 0 0 0;
+ }
+
+ .intro{
     background-image: url(images/Captura\ de\ Tela\ \(57\).png);
     background-size: 100%;
-    height: 440px;
+    height: 435px;
 }
 
  /*MANDALORIAN*/
@@ -97,10 +137,6 @@ p{
    }
 
 /*GROUPING*/
-
-.grouping{
-    
-}
 
 .agrouping{
     display: flex;
@@ -128,10 +164,8 @@ p{
     height: 520px;
     align-items: center;
     justify-content: end;
-    background-color: #050815;
     background-image: url(images/rei-leao.png);
     background-size:100% ;
-
 }
 
 .text-k-l{
@@ -145,10 +179,16 @@ p{
     background-color: #101521;
 }
 
-.favorites{
-    display: block;
+.disponivel{
+    display: flex;
     text-align: center;
+    justify-content: center;
     padding: 200px 0 0 0 ;
+
+}
+
+.favorites{
+
 }
 
 .elements{
